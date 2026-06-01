@@ -4,14 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactive Navigation Menu</title>
-
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <nav id="navbar">
-        <div class="logo">Task 1</div>
-
+    <header id="navbar">
+        <a href="#home" class="logo">Brand</a>
         <ul class="nav-links">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
@@ -19,29 +16,41 @@
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
-    </nav>
+    </header>
 
-    <section id="home" class="section">
-        <h1>Home Section</h1>
+    <section id="home">
+        <h1>Interactive Navigation Menu</h1>
+        <p>Modern Responsive Landing Page</p>
     </section>
 
     <section id="about" class="section">
-        <h1>About Section</h1>
+        <div>
+            <h2>About Us</h2>
+            <p>Learn how the navigation changes style while scrolling.</p>
+        </div>
     </section>
 
     <section id="services" class="section">
-        <h1>Services Section</h1>
+        <div>
+            <h2>Services</h2>
+            <p>Hover over the menu to see the active item highlight.</p>
+        </div>
     </section>
 
     <section id="portfolio" class="section">
-        <h1>Portfolio Section</h1>
+        <div>
+            <h2>Portfolio</h2>
+            <p>Fixed navigation stays visible as you browse the page.</p>
+        </div>
     </section>
 
     <section id="contact" class="section">
-        <h1>Contact Section</h1>
+        <div>
+            <h2>Contact</h2>
+            <p>Scroll up or down to watch the menu background animate.</p>
+        </div>
     </section>
 
     <script src="script.js"></script>
-
 </body>
 </html>
